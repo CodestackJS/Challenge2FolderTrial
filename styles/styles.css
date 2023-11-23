@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+
+.dosisFont{
+    font-family: 'Dosis', sans-serif; 
+}
+
+.sourceFont{
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+
+
 /* Navbar design starts */
 .navBg{
     background-color: rgb(0,3,36);
@@ -99,6 +112,10 @@
     text-align: center;
     padding-bottom: 5rem;
 }
+.roomsBtn{
+    background-color: #004CC7;
+    border-radius: 0; 
+}
 
 .sideLeft{
     text-align: left;
@@ -130,9 +147,7 @@
     width: 100%;
 
 }
-.pkgText{
-   
-}
+
 
 .pkgSection{
     padding: 7%;
@@ -160,14 +175,18 @@
 
 .reserveRoomBackgroundText{
     color: white;
+    font-family: 'Source Sans 3', sans-serif;
 }
 
 #reserveTextColor{
     color: white;
+    font-family: 'Dosis', sans-serif; 
 }
 
 .btnCheckAvailability{
-    
+    background-color: #006EDB;
+    border: #000DC7 1px solid;
+    border-radius: 0;
     
 }
 
@@ -177,7 +196,7 @@
     border-collapse: collapse;
     
 }
-
+ 
 
 
 /*footer starts */
