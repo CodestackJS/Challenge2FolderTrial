@@ -25,9 +25,7 @@
     background-image: url("images/header.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    border: 2px green solid;
-    
-    
+    border: 2px green solid;   
 }*/
 
 .header{
@@ -55,13 +53,20 @@
 }
 
 /*Welcome to a Hampster Paradise section */
-.sideLeft{
+.welcomeText{
     text-align: left;
+    margin-top: 20px;
     /*border: 2px green solid ;*/
 }
 
 .sittingHamster{
     border: 2px green solid;
+    margin-bottom: 2rem;
+}
+
+.welcomeAwards{
+    display: flex;
+    justify-content: space-around;
 }
 
 /*Our Room Section starts*/
@@ -75,7 +80,29 @@
     color: white;
     display: flex;
     justify-content: center;
+    
    
+}
+
+.ourRooms{
+    background: url("/images/bg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px blue solid;
+   
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+.sideLeft{
+    text-align: left;
+}
+
+.allCards{
+    margin: 10px;
 }
 
 
@@ -95,6 +122,22 @@
 .wedRow{
     border: 2px green solid;
 }
+.weddingImg{
+    width: 55%;
+}
+
+.pkgImg{
+    height: 250px;
+    width: 100%;
+
+}
+.pkgText{
+   
+}
+
+.pkgSection{
+    padding: 7%;
+}
 
 /*Amenities Section */
 .amenitiesBg{
@@ -104,6 +147,7 @@
     border: 2px blue solid;
     height: 30rem;
     color: white;
+    margin-bottom: 8rem;
 }
 .imgPadding{
     padding-top: 10%;
