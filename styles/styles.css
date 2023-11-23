@@ -18,6 +18,14 @@
 .navReserve{
     color: #FFFFFF;
     border: 2px #FFFFFF solid;
+    padding-right: 5px;
+    padding-left: 5px;
+    
+}
+
+.reserveContainer{
+    display: flex;
+    align-content: end;
 }
 
 /* header background section --- not working at the moment --- image not pulling using url and background
