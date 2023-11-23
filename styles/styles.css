@@ -41,13 +41,7 @@
     align-content: end;
 }
 
-/* header background section --- not working at the moment --- image not pulling using url and background
-.headerBg{
-    background-image: url("images/header.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    border: 2px green solid;   
-}*/
+
 
 .header{
     display:flex;
@@ -76,7 +70,7 @@
 .welcomeText{
     text-align: left;
     margin-top: 20px;
-    /*border: 2px green solid ;*/
+   
 }
 
 .sittingHamster{
